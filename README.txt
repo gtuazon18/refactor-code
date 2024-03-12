@@ -1,45 +1,20 @@
-Do at least ONE of the following tasks: refactor is mandatory. Write tests is optional, will be good bonus to see it. 
-Please do not invest more than 2-4 hours on this.
-Upload your results to a Github repo, for easier sharing and reviewing.
+# Optimization and Refactor of Code
 
-Thank you and good luck!
+## Optimizations Implemented
 
-
-
-Code to refactor
-=================
-1) app/Http/Controllers/BookingController.php
-2) app/Repository/BookingRepository.php
-
-Code to write tests (optional)
-=====================
-3) App/Helpers/TeHelper.php method willExpireAt
-4) App/Repository/UserRepository.php, method createOrUpdate
-
-
-----------------------------
-
-What I expect in your repo:
-
-X. A readme with:   Your thoughts about the code. What makes it amazing code. Or what makes it ok code. Or what makes it terrible code. How would you have done it. Thoughts on formatting, structure, logic.. The more details that you can provide about the code (what's terrible about it or/and what is good about it) the easier for us to assess your coding style, mentality etc
-
-And 
-
-Y.  Refactor it if you feel it needs refactoring. The more love you put into it. The easier for us to asses your thoughts, code principles etc
-
-
-IMPORTANT: Make two commits. First commit with original code. Second with your refactor so we can easily trace changes. 
-
-
-NB: you do not need to set up the code on local and make the web app run. It will not run as its not a complete web app. This is purely to assess you thoughts about code, formatting, logic etc
-
-
-===== So expected output is a GitHub link with either =====
-
-1. Readme described above (point X above) + refactored code 
-OR
-2. Readme described above (point X above) + refactored core + a unit test of the code that we have sent
-
-Thank you!
-
-
+- **Code Optimization:** Streamlined and improved code performance.
+- **Validation Enhancement:** Implemented robust resource and form request validation.
+- **Code Structure Refinement:** Fine-tuned construct codes for improved coherence and readability.
+- **Service Layer Integration:** Introduced a service layer for holistic API management.
+- **SOLID Principles:** Applied SOLID principles to enhance code structure and scalability.
+- **Request Parameter Sanitization:** Utilized request validated for secure request parameter handling.
+- **Early Error Handling:** Implemented early return strategies for efficient error handling.
+- **Comments Reduction:** Minimized comment usage to enhance code readability.
+- **Variable Naming Standardization:** Standardized variable names to camelCase for consistency.
+- **Coalescing Operator Usage:** Employed coalescing operator for efficient code.
+- **Push Notification Isolation:** Separated push notification concerns into a distinct service.
+- **Redundancy Removal:** Eliminated redundant functions and conditions to streamline code.
+- **Repository Segregation:** Segregated repositories for better organization and maintainability.
+- **Functionality Expansion:** Added new functions for enhanced functionality without compromising readability.
+- **Dynamic Functionality Preparation:** Prepared for dynamic functionality with helpers or traits.
+- **Query Optimization:** Reduced code size from 2184 to 1603 lines by optimizing queries for improved efficiency.
